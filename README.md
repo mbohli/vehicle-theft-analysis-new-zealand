@@ -7,6 +7,7 @@ The main goal was to understand the patterns in the data and identify findings t
 MySQL was used for the data analysis and Tableau for visualization and further analysis.
 
 Business Problem
+
 The analysis focuses on three main questions:
 •	Where are vehicle thefts most concentrated?
 •	When does vehicle theft activity increase or decrease?
@@ -14,12 +15,14 @@ The analysis focuses on three main questions:
 I also looked at whether the patterns were different across regions and compared raw theft numbers with population-adjusted theft rates.
 
 Stakeholders
+
 The main identified stakeholders for this analysis are:
 •	Police leadership — to understand overall vehicle theft patterns and where resources may be needed.
 •	District commanders — to understand theft patterns within their regions.
 •	Police intelligence and analysts — to investigate geographic, time-based, and vehicle-level patterns.
 
 Dataset
+
 The project uses three tables:
 •	stolen_vehicles - contains the vehicle theft records and vehicle information.
 •	locations - contains region and population information.
@@ -28,6 +31,7 @@ The dataset contains 4,707 vehicle theft records.
 The records cover October 2021 to April 2022. April 2022 only contains the first few days of the month, so I excluded it when interpreting the monthly trend.
 
 Data Quality Checks
+
 Before starting the analysis, some basic data-quality checks were carried out.
 These included:
 •	Checking the total number of records
@@ -42,6 +46,7 @@ These included:
 •	Reviewing unexpected or inconsistent values
 
 Methodology
+
 The project followed this process:
 Raw Data
    ↓
@@ -58,6 +63,7 @@ Visualizations and Additional Calculations
 Findings and Recommendations
 
 SQL
+
 I used MySQL to:
 •	Explore the data
 •	Check data quality
@@ -72,6 +78,7 @@ I used MySQL to:
 SQL window functions such as LAG() and ROW_NUMBER() were used for the month-over-month and ranking analysis.
 
 Tableau
+
 The SQL results were exported as CSV files and used in Tableau.
 In Tableau, visualizations were created and some additional analysis were carried out, including:
 •	Population-adjusted theft rates
@@ -84,20 +91,24 @@ I initially used a Top 10 filter and then displayed the leading seven makes beca
 and similar values and made the visualization more crowded.
 
 Key KPIs
+
 The main KPIs and measures used in the analysis were:
 
 Theft
+
 •	Total vehicle thefts
 •	Theft by region
 •	Theft by vehicle type
 •	Theft by vehicle make
 
 Time
+
 •	Monthly theft volume
 •	Month-over-month theft change
 •	Theft by day of the week
 
 Vehicle
+
 •	Top stolen vehicle makes
 •	Top stolen vehicle types
 •	Top makes within vehicle types
@@ -105,10 +116,12 @@ Vehicle
 •	Standard vs Luxury classification
 
 Geography
+
 •	Regional theft volume
 •	Theft rate per 1,000 residents
 
 Key Findings
+
 1. Vehicle theft is not evenly distributed across the country
 Auckland recorded the highest number of vehicle thefts, with 1,638 recorded thefts, representing around 36% of the total thefts in the dataset.
 Southland recorded the lowest raw number of thefts.
@@ -182,6 +195,7 @@ Some categories, such as sports cars and convertibles, also had notable recorded
 However, these results show the composition of the stolen vehicles in this dataset. They do not tell us whether Standard or Luxury vehicles are more likely to be stolen.
 
 Recommendations
+
 Based on the patterns found in the analysis:
 
 Regional prevention
@@ -219,6 +233,7 @@ Descriptive analysis
 This project identifies patterns in the recorded data. It does not establish that one factor caused another.
 
 Project Structure
+
 vehicle-theft-analysis/
 │
 ├── README.md
@@ -249,7 +264,9 @@ vehicle-theft-analysis/
     └── day_of_week.png
 
 Skills Demonstrated
+
 SQL
+
 •	MySQL
 •	Data exploration
 •	Data-quality checks
@@ -263,6 +280,7 @@ SQL
 •	Percentage calculations
 
 Tableau
+
 •	Calculated fields
 •	Aggregation
 •	Top-N filtering
@@ -273,6 +291,7 @@ Tableau
 •	Data visualization
 
 Data Analysis
+
 •	Exploratory data analysis
 •	Trend analysis
 •	Geographic analysis
@@ -283,6 +302,7 @@ Data Analysis
 •	Recognizing analytical limitations
 
 Conclusion
+
 This project gave me the opportunity to work through a complete data-analysis process, from checking and exploring the raw data to building SQL queries, exporting analysis-ready tables, and creating visualizations in Tableau.
 The analysis identified patterns in where vehicle thefts were recorded, when theft activity was highest, and which vehicle makes and types appeared most frequently.
 One of the main analytic takeaways from the project was the importance of looking beyond raw numbers. For example, regional theft counts and population-adjusted rates can give different perspectives, while high theft counts for a particular vehicle make do not necessarily mean that make has a higher theft risk.
