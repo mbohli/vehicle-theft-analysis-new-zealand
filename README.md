@@ -48,19 +48,11 @@ These included:
 Methodology
 
 The project followed this process:
-Raw Data
-   ↓
-Data Quality Checks
-   ↓
-SQL Analysis
-   ↓
-Export Analysis Results to CSV
-   ↓
-Tableau
-   ↓
-Visualizations and Additional Calculations
-   ↓
-Findings and Recommendations
+
+- `README.md` — Project overview, methodology, findings, and recommendations
+- `sql/` — SQL queries used for data exploration and analysis
+- `data/` — CSV files exported from the SQL analysis
+- `tableau/` — Tableau visualization and supporting screenshots
 
 SQL
 
