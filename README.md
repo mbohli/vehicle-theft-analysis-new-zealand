@@ -27,7 +27,7 @@ The project uses three tables:
 •	stolen_vehicles - contains the vehicle theft records and vehicle information.
 •	locations - contains region and population information.
 •	make_details - contains vehicle make and make classification information.
-The dataset contains 4,707 vehicle theft records.
+The dataset contains 4,355 vehicle theft records.
 The records cover October 2021 to April 2022. April 2022 only contains the first few days of the month, so I excluded it when interpreting the monthly trend.
 
 Data Quality Checks
@@ -126,9 +126,7 @@ This is a large share considering these are only three of the 13 regions in the 
 The result is based on the number of recorded thefts and does not mean that people or vehicles in these regions necessarily have a higher individual risk of theft.
 
 3. Theft activity increased sharply in March 2022
-Vehicle thefts increased during much of the period analyzed.
-The month-over-month increase slowed from 20.7% in November to 3.1% in February, before increasing sharply to 38.0% in March.
-April was not included in the trend analysis because the data only covers 1–6 April 2022. This was important because using April as a normal month would have given a misleading picture of the trend.
+Vehicle theft activity increased sharply in March 2022. Month-over-month growth slowed from 20.7% in November to 3.1% in February, before accelerating to 38.0% in March. April recorded 329 thefts, but the data only covers the first six days of the month and was therefore excluded from trend interpretation.
 
 4. The week starts with higher theft activity
 Monday and Tuesday had the highest recorded theft activity. Saturday had the lowest number of recorded thefts. This shows a clear pattern in the dataset, although more data would be needed to determine whether the same pattern continues over a longer period.
