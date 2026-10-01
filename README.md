@@ -1,6 +1,7 @@
 Vehicle Theft Analysis — New Zealand
 
 Project Overview
+
 Vehicle theft in New Zealand affects communities and creates operational challenges for police. In this project,  historical vehicle theft data was analyzed to identify patterns in where, when, and what types of vehicles were being stolen.
 The main goal was to understand the patterns in the data and identify findings that could be useful for prevention planning, investigation, and resource allocation.
 MySQL was used for the data analysis and Tableau for visualization and further analysis.
