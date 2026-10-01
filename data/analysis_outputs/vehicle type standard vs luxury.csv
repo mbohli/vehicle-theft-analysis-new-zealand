@@ -1,0 +1,26 @@
+vehicle_type,pct_standard,pct_Luxury
+Trailer,100.0,0.0
+"Boat Trailer",100.0,0.0
+Roadbike,98.7,1.3
+Moped,100.0,0.0
+"Trailer - Heavy",100.0,0.0
+Caravan,100.0,0.0
+Hatchback,96.7,3.3
+Saloon,87.1,12.9
+Stationwagon,96.3,3.7
+Tractor,100.0,0.0
+"Trail Bike",100.0,0.0
+"Light Van",98.7,1.3
+"All Terrain Vehicle",100.0,0.0
+Utility,99.8,0.2
+"Other Truck",100.0,0.0
+"Sports Car",77.5,22.5
+"Flat Deck Truck",100.0,0.0
+"Light Bus",100.0,0.0
+"Mobile Home - Light",100.0,0.0
+Convertible,50.0,50.0
+"Heavy Van",85.7,14.3
+"Special Purpose Vehicle",100.0,0.0
+"Articulated Truck",100.0,0.0
+"Cab and Chassis Only",100.0,0.0
+"Mobile Machine",100.0,0.0

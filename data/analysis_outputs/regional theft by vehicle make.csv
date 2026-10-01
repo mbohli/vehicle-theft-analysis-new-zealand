@@ -1,0 +1,489 @@
+region,make_name,num_theft
+Auckland,Toyota,273
+Auckland,Nissan,186
+Auckland,Trailer,147
+Auckland,Mazda,123
+Auckland,Honda,114
+Auckland,Mitsubishi,79
+Auckland,BMW,73
+Auckland,Suzuki,72
+Auckland,Ford,64
+Auckland,Subaru,56
+Auckland,Holden,47
+Auckland,Volkswagen,35
+Auckland,Yamaha,31
+Auckland,Mercedes-Benz,23
+Auckland,Audi,19
+Auckland,"TNT Motor",19
+Auckland,Briford,17
+Auckland,"Harley Davidson",14
+Auckland,KTM,14
+Auckland,Homebuilt,14
+Auckland,Moped,14
+Auckland,Kawasaki,13
+Auckland,Piaggio,12
+Auckland,Forza,10
+Auckland,Vespa,10
+Auckland,Isuzu,8
+Auckland,Hyundai,8
+Auckland,NULL,8
+Auckland,"Factory Built",7
+Auckland,Titan,7
+Auckland,Pinto,7
+Auckland,Daihatsu,6
+Auckland,Kea,5
+Auckland,Caravan,5
+Auckland,Jaguar,4
+Auckland,Custombuilt,4
+Auckland,Aprilia,3
+Auckland,Dodge,3
+Auckland,Volvo,3
+Auckland,Peugeot,3
+Auckland,ADLY,3
+Auckland,Jeep,3
+Auckland,Kia,3
+Auckland,Hyosung,2
+Auckland,"Royal Enfield",2
+Auckland,Benelli,2
+Auckland,Triumph,2
+Auckland,"Land Rover",2
+Auckland,Chrysler,2
+Auckland,Chevrolet,2
+Auckland,Lexus,2
+Auckland,MG,2
+Auckland,Hino,2
+Auckland,Kymco,2
+Auckland,Reid,2
+Auckland,Porsche,2
+Auckland,Ducati,2
+Auckland,FOTON,1
+Auckland,"Mobile Machine",1
+Auckland,"Mitsubishio Fuso",1
+Auckland,Chery,1
+Auckland,Zephyr,1
+Auckland,Saab,1
+Auckland,"Toyota Lexus",1
+Auckland,Vmoto,1
+Auckland,TGB,1
+Auckland,Ferrari,1
+Auckland,Scomadi,1
+Auckland,Buell,1
+Auckland,DMW,1
+Auckland,Keeway,1
+Auckland,PGO,1
+Auckland,"Aakron Xpress",1
+Auckland,Universal,1
+Auckland,Swift,1
+Auckland,Liteweight,1
+Auckland,Dacia,1
+Auckland,"Mono - Way",1
+Auckland,Sterling,1
+Auckland,Bailey,1
+Auckland,Domett,1
+Auckland,Anglo,1
+Auckland,Bricon,1
+Auckland,Trojan,1
+Auckland,Caterpillar,1
+Auckland,Niu,1
+Auckland,Oxford,1
+Auckland,Hoskings,1
+Auckland,"Nissan Diesel",1
+Auckland,Jayco,1
+Auckland,Maserati,1
+Auckland,Cadillac,1
+Auckland,Seat,1
+Auckland,Fuso,1
+Auckland,Mini,1
+Auckland,Skoda,1
+Auckland,Mahindra,1
+Auckland,Takeuchi,1
+"Bay of Plenty",Toyota,72
+"Bay of Plenty",Ford,68
+"Bay of Plenty",Trailer,61
+"Bay of Plenty",Mazda,53
+"Bay of Plenty",Nissan,47
+"Bay of Plenty",Honda,21
+"Bay of Plenty",Holden,16
+"Bay of Plenty",Subaru,13
+"Bay of Plenty",Mitsubishi,12
+"Bay of Plenty",Suzuki,11
+"Bay of Plenty",BMW,9
+"Bay of Plenty",Homebuilt,5
+"Bay of Plenty",Audi,5
+"Bay of Plenty",Isuzu,4
+"Bay of Plenty","Harley Davidson",3
+"Bay of Plenty",Titan,3
+"Bay of Plenty","TNT Motor",3
+"Bay of Plenty",Caravan,3
+"Bay of Plenty",Mercedes-Benz,2
+"Bay of Plenty",Kea,2
+"Bay of Plenty",Volkswagen,2
+"Bay of Plenty",Kawasaki,2
+"Bay of Plenty","Factory Built",2
+"Bay of Plenty",Daihatsu,1
+"Bay of Plenty",Peugeot,1
+"Bay of Plenty",Atlas,1
+"Bay of Plenty",Kia,1
+"Bay of Plenty",Mini,1
+"Bay of Plenty",Chevrolet,1
+"Bay of Plenty",FOTON,1
+"Bay of Plenty",Dodge,1
+"Bay of Plenty",Lexus,1
+"Bay of Plenty",Forza,1
+"Bay of Plenty",Moped,1
+"Bay of Plenty",Hyundai,1
+"Bay of Plenty",Vmoto,1
+"Bay of Plenty",Voyager,1
+"Bay of Plenty",Briford,1
+"Bay of Plenty",Classic,1
+"Bay of Plenty",Pinto,1
+"Bay of Plenty",Oxford,1
+"Bay of Plenty",ADLY,1
+"Bay of Plenty",Znen,1
+"Bay of Plenty",Reid,1
+"Bay of Plenty",Kymco,1
+"Bay of Plenty","Royal Enfield",1
+"Bay of Plenty",Aprilia,1
+"Bay of Plenty",Daewoo,1
+"Bay of Plenty",Jaguar,1
+"Bay of Plenty",NULL,1
+Canterbury,Toyota,136
+Canterbury,Trailer,100
+Canterbury,Nissan,59
+Canterbury,Mazda,47
+Canterbury,Ford,45
+Canterbury,Mitsubishi,31
+Canterbury,Subaru,28
+Canterbury,Briford,28
+Canterbury,Honda,23
+Canterbury,Homebuilt,18
+Canterbury,Holden,14
+Canterbury,BMW,13
+Canterbury,Isuzu,13
+Canterbury,Suzuki,13
+Canterbury,"Factory Built",12
+Canterbury,Hyundai,6
+Canterbury,"TNT Motor",6
+Canterbury,KTM,5
+Canterbury,Caravan,5
+Canterbury,Mercedes-Benz,5
+Canterbury,Yamaha,5
+Canterbury,Audi,4
+Canterbury,Moped,3
+Canterbury,Forza,3
+Canterbury,Volkswagen,3
+Canterbury,SYM,3
+Canterbury,"Land Rover",2
+Canterbury,Kea,2
+Canterbury,Triumph,2
+Canterbury,Lochiel,2
+Canterbury,Chevrolet,2
+Canterbury,Peugeot,2
+Canterbury,Daihatsu,1
+Canterbury,FOTON,1
+Canterbury,Jeep,1
+Canterbury,Chrysler,1
+Canterbury,Bedford,1
+Canterbury,Reid,1
+Canterbury,"Harley Davidson",1
+Canterbury,Steelbro,1
+Canterbury,Keeway,1
+Canterbury,Husqvarna,1
+Canterbury,PGO,1
+Canterbury,Trail-Lite,1
+Canterbury,Pinto,1
+Canterbury,Aprilia,1
+Canterbury,Elddis,1
+Canterbury,Crusader,1
+Canterbury,Custombuilt,1
+Canterbury,Jayco,1
+Canterbury,Buffalo,1
+Canterbury,Atlas,1
+Gisborne,Nissan,29
+Gisborne,Toyota,27
+Gisborne,Mazda,22
+Gisborne,Trailer,21
+Gisborne,Ford,20
+Gisborne,Holden,12
+Gisborne,Honda,10
+Gisborne,Subaru,7
+Gisborne,Mitsubishi,6
+Gisborne,BMW,4
+Gisborne,Suzuki,4
+Gisborne,Peugeot,2
+Gisborne,Yamaha,2
+Gisborne,Titan,2
+Gisborne,Audi,2
+Gisborne,Hyosung,1
+Gisborne,NULL,1
+Gisborne,Chevrolet,1
+Gisborne,Kia,1
+Gisborne,"TNT Motor",1
+Gisborne,Homebuilt,1
+"Hawke's Bay",Trailer,21
+"Hawke's Bay",Toyota,13
+"Hawke's Bay",Ford,11
+"Hawke's Bay",Mazda,11
+"Hawke's Bay",Nissan,7
+"Hawke's Bay",Mitsubishi,6
+"Hawke's Bay",Subaru,5
+"Hawke's Bay",Holden,5
+"Hawke's Bay","Factory Built",2
+"Hawke's Bay",Suzuki,2
+"Hawke's Bay",Hyosung,2
+"Hawke's Bay",BMW,2
+"Hawke's Bay",Isuzu,2
+"Hawke's Bay",Homebuilt,2
+"Hawke's Bay",Kea,1
+"Hawke's Bay",Swift,1
+"Hawke's Bay","John Deere",1
+"Hawke's Bay",Daihatsu,1
+"Hawke's Bay",Honda,1
+"Hawke's Bay",Yamaha,1
+"Hawke's Bay","Great Wall",1
+"Hawke's Bay",Briford,1
+"Hawke's Bay",Anglo,1
+Manawatū-Whanganui,Trailer,27
+Manawatū-Whanganui,Toyota,18
+Manawatū-Whanganui,Nissan,16
+Manawatū-Whanganui,Mazda,12
+Manawatū-Whanganui,Honda,11
+Manawatū-Whanganui,Mitsubishi,9
+Manawatū-Whanganui,Ford,8
+Manawatū-Whanganui,Subaru,6
+Manawatū-Whanganui,Suzuki,6
+Manawatū-Whanganui,Holden,5
+Manawatū-Whanganui,Yamaha,3
+Manawatū-Whanganui,BMW,3
+Manawatū-Whanganui,Homebuilt,2
+Manawatū-Whanganui,Isuzu,2
+Manawatū-Whanganui,Triumph,1
+Manawatū-Whanganui,Classic,1
+Manawatū-Whanganui,Morris,1
+Manawatū-Whanganui,Kea,1
+Manawatū-Whanganui,Over,1
+Manawatū-Whanganui,Reid,1
+Manawatū-Whanganui,"Factory Built",1
+Manawatū-Whanganui,Lexus,1
+Manawatū-Whanganui,Hyosung,1
+Manawatū-Whanganui,Ssangyong,1
+Manawatū-Whanganui,Volkswagen,1
+Marlborough,NULL,0
+Nelson,Trailer,18
+Nelson,Toyota,16
+Nelson,Nissan,10
+Nelson,Holden,6
+Nelson,Ford,5
+Nelson,"Factory Built",4
+Nelson,Isuzu,4
+Nelson,Honda,3
+Nelson,Mazda,3
+Nelson,Subaru,3
+Nelson,Yamaha,2
+Nelson,Chrysler,2
+Nelson,Mitsubishi,2
+Nelson,Piaggio,2
+Nelson,BMW,2
+Nelson,Victory,1
+Nelson,Trike,1
+Nelson,Daihatsu,1
+Nelson,Hyundai,1
+Nelson,Kea,1
+Nelson,Bedford,1
+Nelson,Briford,1
+Nelson,Homebuilt,1
+Nelson,Volkswagen,1
+Nelson,Suzuki,1
+Northland,Toyota,32
+Northland,Nissan,27
+Northland,Trailer,24
+Northland,Mazda,20
+Northland,Mitsubishi,18
+Northland,Ford,17
+Northland,Holden,16
+Northland,Subaru,14
+Northland,Suzuki,13
+Northland,Honda,11
+Northland,Volkswagen,6
+Northland,Yamaha,3
+Northland,Isuzu,3
+Northland,Homebuilt,3
+Northland,BMW,3
+Northland,Caravan,2
+Northland,Kea,2
+Northland,Mercedes-Benz,2
+Northland,Ducati,2
+Northland,KTM,2
+Northland,PGO,2
+Northland,Audi,1
+Northland,Hitachi,1
+Northland,Znen,1
+Northland,Vespa,1
+Northland,Kawasaki,1
+Northland,Rhino,1
+Northland,"Factory Built",1
+Northland,Triumph,1
+Northland,Hyundai,1
+Northland,Tractor,1
+Northland,Volvo,1
+Northland,Ssangyong,1
+Otago,Toyota,21
+Otago,Trailer,15
+Otago,Honda,14
+Otago,Subaru,12
+Otago,Ford,12
+Otago,Mazda,12
+Otago,Nissan,10
+Otago,Briford,5
+Otago,Mitsubishi,5
+Otago,Homebuilt,4
+Otago,Lochiel,4
+Otago,Isuzu,3
+Otago,Holden,3
+Otago,Volkswagen,2
+Otago,BMW,2
+Otago,Aprilia,2
+Otago,"TNT Motor",2
+Otago,Chrysler,1
+Otago,Landrover,1
+Otago,Mini,1
+Otago,Peugeot,1
+Otago,Hyundai,1
+Otago,Vespa,1
+Otago,Suzuki,1
+Otago,"Factory Built",1
+Otago,Zephyr,1
+Otago,Toko,1
+Otago,Daihatsu,1
+Southland,Subaru,4
+Southland,Mazda,3
+Southland,Toyota,3
+Southland,Honda,3
+Southland,Holden,3
+Southland,Nissan,2
+Southland,Caravan,1
+Southland,Pinto,1
+Southland,Trailer,1
+Southland,Mitsubishi,1
+Southland,Suzuki,1
+Southland,Victory,1
+Southland,Ford,1
+Southland,Yamaha,1
+Taranaki,Trailer,21
+Taranaki,Mazda,20
+Taranaki,Subaru,10
+Taranaki,Holden,8
+Taranaki,Nissan,7
+Taranaki,Honda,7
+Taranaki,Toyota,7
+Taranaki,Ford,6
+Taranaki,Mitsubishi,4
+Taranaki,Homebuilt,3
+Taranaki,Daihatsu,2
+Taranaki,Yamaha,2
+Taranaki,Audi,2
+Taranaki,KTM,1
+Taranaki,Suzuki,1
+Taranaki,BMW,1
+Taranaki,Titan,1
+Taranaki,Peugeot,1
+Taranaki,"Harley Davidson",1
+Taranaki,Moped,1
+Taranaki,Rover,1
+Taranaki,SYM,1
+Taranaki,Diamond,1
+Taranaki,Can-Am,1
+Taranaki,Mercedes-Benz,1
+Taranaki,FOTON,1
+Tasman,NULL,0
+Waikato,Nissan,56
+Waikato,Trailer,50
+Waikato,Toyota,44
+Waikato,Mazda,41
+Waikato,Ford,28
+Waikato,Honda,22
+Waikato,Holden,21
+Waikato,Suzuki,14
+Waikato,Kea,14
+Waikato,Mitsubishi,11
+Waikato,Subaru,11
+Waikato,Homebuilt,7
+Waikato,Volkswagen,4
+Waikato,Audi,4
+Waikato,Isuzu,3
+Waikato,"Factory Built",3
+Waikato,Briford,3
+Waikato,BMW,3
+Waikato,DMW,2
+Waikato,NULL,2
+Waikato,Yamaha,2
+Waikato,Mercedes-Benz,2
+Waikato,Peugeot,2
+Waikato,Kawasaki,2
+Waikato,Ssangyong,1
+Waikato,DAF,1
+Waikato,"Great Wall",1
+Waikato,Renault,1
+Waikato,Chrysler,1
+Waikato,Chery,1
+Waikato,Aprilia,1
+Waikato,KTM,1
+Waikato,Keeway,1
+Waikato,Massey,1
+Waikato,Pinto,1
+Waikato,Veteran,1
+Waikato,"TNT Motor",1
+Waikato,Hyosung,1
+Waikato,Daihatsu,1
+Waikato,Triumph,1
+Waikato,Moden,1
+Waikato,Hoskings,1
+Waikato,Alpha,1
+Waikato,Benelli,1
+Wellington,Mazda,66
+Wellington,Toyota,54
+Wellington,Trailer,37
+Wellington,Subaru,33
+Wellington,Honda,31
+Wellington,Ford,27
+Wellington,Nissan,26
+Wellington,Suzuki,25
+Wellington,Mitsubishi,20
+Wellington,BMW,10
+Wellington,"TNT Motor",10
+Wellington,"Factory Built",7
+Wellington,KTM,6
+Wellington,Kawasaki,5
+Wellington,Briford,4
+Wellington,Holden,4
+Wellington,Audi,4
+Wellington,Aprilia,4
+Wellington,NULL,3
+Wellington,Caravan,3
+Wellington,Titan,3
+Wellington,Yamaha,3
+Wellington,Homebuilt,3
+Wellington,Moped,3
+Wellington,Hyosung,2
+Wellington,Triumph,2
+Wellington,"Harley Davidson",2
+Wellington,PGO,2
+Wellington,Husqvarna,2
+Wellington,Volkswagen,2
+Wellington,Piaggio,2
+Wellington,"Royal Enfield",1
+Wellington,Dodge,1
+Wellington,Over,1
+Wellington,Daihatsu,1
+Wellington,"Mono - Way",1
+Wellington,Bentley,1
+Wellington,Benelli,1
+Wellington,Keeway,1
+Wellington,Lambretta,1
+Wellington,Ubco,1
+Wellington,Peugeot,1
+Wellington,Husaberg,1
+Wellington,Citroen,1
+Wellington,"Land Rover",1
+Wellington,Sprite,1
+"West Coast",NULL,0

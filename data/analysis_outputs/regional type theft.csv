@@ -1,0 +1,211 @@
+region,vehicle_type,num_theft
+Auckland,Saloon,327
+Auckland,Stationwagon,306
+Auckland,Hatchback,296
+Auckland,Roadbike,163
+Auckland,Trailer,141
+Auckland,Moped,88
+Auckland,Utility,83
+Auckland,"Light Van",71
+Auckland,"Boat Trailer",37
+Auckland,"Trailer - Heavy",37
+Auckland,"Other Truck",18
+Auckland,"Sports Car",15
+Auckland,Caravan,14
+Auckland,NULL,12
+Auckland,Convertible,9
+Auckland,"Flat Deck Truck",8
+Auckland,"Light Bus",3
+Auckland,"Cab and Chassis Only",3
+Auckland,"Mobile Home - Light",3
+Auckland,"Mobile Machine",2
+Auckland,"Heavy Van",2
+"Bay of Plenty",Utility,100
+"Bay of Plenty",Saloon,86
+"Bay of Plenty",Stationwagon,79
+"Bay of Plenty",Trailer,54
+"Bay of Plenty",Hatchback,48
+"Bay of Plenty","Boat Trailer",14
+"Bay of Plenty",Moped,14
+"Bay of Plenty",Roadbike,11
+"Bay of Plenty","Trailer - Heavy",10
+"Bay of Plenty","Light Van",8
+"Bay of Plenty","Sports Car",7
+"Bay of Plenty",Caravan,5
+"Bay of Plenty",NULL,4
+"Bay of Plenty","Other Truck",4
+"Bay of Plenty",Convertible,1
+"Bay of Plenty","Mobile Home - Light",1
+Canterbury,Stationwagon,165
+Canterbury,Trailer,128
+Canterbury,Saloon,99
+Canterbury,Hatchback,67
+Canterbury,Utility,61
+Canterbury,Moped,33
+Canterbury,"Light Van",24
+Canterbury,Roadbike,20
+Canterbury,"Trailer - Heavy",16
+Canterbury,"Boat Trailer",13
+Canterbury,Caravan,9
+Canterbury,"Other Truck",6
+Canterbury,"Sports Car",4
+Canterbury,"Mobile Home - Light",3
+Canterbury,Convertible,2
+Canterbury,"All Terrain Vehicle",2
+Canterbury,"Flat Deck Truck",2
+Canterbury,"Light Bus",2
+Canterbury,"Cab and Chassis Only",1
+Canterbury,"Special Purpose Vehicle",1
+Canterbury,"Trail Bike",1
+Canterbury,"Heavy Van",1
+Gisborne,Saloon,41
+Gisborne,Stationwagon,39
+Gisborne,Hatchback,29
+Gisborne,Utility,27
+Gisborne,Trailer,15
+Gisborne,"Trailer - Heavy",6
+Gisborne,"Sports Car",4
+Gisborne,"Boat Trailer",3
+Gisborne,Roadbike,3
+Gisborne,"Mobile Home - Light",2
+Gisborne,Moped,2
+Gisborne,"Light Van",2
+Gisborne,"Other Truck",1
+Gisborne,"Flat Deck Truck",1
+Gisborne,NULL,1
+"Hawke's Bay",Trailer,23
+"Hawke's Bay",Saloon,20
+"Hawke's Bay",Utility,16
+"Hawke's Bay",Stationwagon,14
+"Hawke's Bay",Hatchback,9
+"Hawke's Bay",Roadbike,5
+"Hawke's Bay",Caravan,3
+"Hawke's Bay","Sports Car",3
+"Hawke's Bay","Light Van",2
+"Hawke's Bay","Boat Trailer",1
+"Hawke's Bay",Tractor,1
+"Hawke's Bay","Other Truck",1
+"Hawke's Bay",Moped,1
+"Hawke's Bay","Trailer - Heavy",1
+Manawatū-Whanganui,Stationwagon,29
+Manawatū-Whanganui,Saloon,28
+Manawatū-Whanganui,Trailer,27
+Manawatū-Whanganui,Utility,20
+Manawatū-Whanganui,Hatchback,14
+Manawatū-Whanganui,Roadbike,5
+Manawatū-Whanganui,"Light Van",5
+Manawatū-Whanganui,"Trailer - Heavy",3
+Manawatū-Whanganui,"Boat Trailer",2
+Manawatū-Whanganui,"Mobile Home - Light",1
+Manawatū-Whanganui,Caravan,1
+Manawatū-Whanganui,"Other Truck",1
+Manawatū-Whanganui,"Sports Car",1
+Manawatū-Whanganui,NULL,1
+Manawatū-Whanganui,Moped,1
+Nelson,Trailer,19
+Nelson,Stationwagon,17
+Nelson,Utility,14
+Nelson,Hatchback,8
+Nelson,Saloon,7
+Nelson,Roadbike,6
+Nelson,"Light Van",6
+Nelson,"Flat Deck Truck",2
+Nelson,"Mobile Home - Light",2
+Nelson,Moped,2
+Nelson,"Trailer - Heavy",2
+Nelson,"Other Truck",2
+Nelson,Caravan,2
+Nelson,"Boat Trailer",2
+Nelson,"Heavy Van",1
+Northland,Stationwagon,69
+Northland,Saloon,37
+Northland,Utility,34
+Northland,Hatchback,28
+Northland,Trailer,23
+Northland,Roadbike,14
+Northland,"Boat Trailer",6
+Northland,Moped,4
+Northland,"Other Truck",4
+Northland,Tractor,2
+Northland,Caravan,2
+Northland,"Light Van",2
+Northland,"Trailer - Heavy",2
+Northland,"All Terrain Vehicle",1
+Northland,"Sports Car",1
+Northland,NULL,1
+Northland,"Light Bus",1
+Northland,"Heavy Van",1
+Northland,"Flat Deck Truck",1
+Northland,"Cab and Chassis Only",1
+Otago,Stationwagon,31
+Otago,Saloon,29
+Otago,Trailer,27
+Otago,Utility,21
+Otago,Hatchback,12
+Otago,"Boat Trailer",3
+Otago,Moped,3
+Otago,"Light Van",2
+Otago,Roadbike,2
+Otago,NULL,2
+Otago,"Other Truck",2
+Otago,"Cab and Chassis Only",1
+Otago,"Mobile Home - Light",1
+Otago,"Sports Car",1
+Otago,"Trail Bike",1
+Otago,Caravan,1
+Southland,Stationwagon,9
+Southland,Saloon,7
+Southland,Trailer,2
+Southland,Roadbike,2
+Southland,Utility,2
+Southland,Hatchback,2
+Southland,Caravan,1
+Southland,Moped,1
+Taranaki,Stationwagon,23
+Taranaki,Trailer,21
+Taranaki,Saloon,21
+Taranaki,Utility,14
+Taranaki,Hatchback,13
+Taranaki,Moped,4
+Taranaki,"Boat Trailer",3
+Taranaki,Roadbike,3
+Taranaki,"Light Van",2
+Taranaki,"Trailer - Heavy",2
+Taranaki,"Mobile Home - Light",2
+Taranaki,"Flat Deck Truck",2
+Taranaki,"All Terrain Vehicle",2
+Waikato,Saloon,80
+Waikato,Stationwagon,72
+Waikato,Hatchback,61
+Waikato,Trailer,56
+Waikato,Utility,35
+Waikato,"Boat Trailer",16
+Waikato,Roadbike,15
+Waikato,"Trailer - Heavy",8
+Waikato,"Light Van",8
+Waikato,Moped,7
+Waikato,"Sports Car",3
+Waikato,NULL,2
+Waikato,"Other Truck",2
+Waikato,Caravan,2
+Waikato,"Articulated Truck",1
+Waikato,"Heavy Van",1
+Waikato,Tractor,1
+Waikato,"Cab and Chassis Only",1
+Wellington,Stationwagon,92
+Wellington,Saloon,69
+Wellington,Hatchback,57
+Wellington,Roadbike,48
+Wellington,Trailer,46
+Wellington,Utility,39
+Wellington,Moped,27
+Wellington,"Light Van",22
+Wellington,"Boat Trailer",5
+Wellington,Caravan,4
+Wellington,"Trailer - Heavy",3
+Wellington,NULL,3
+Wellington,"Sports Car",1
+Wellington,"Other Truck",1
+Wellington,"Flat Deck Truck",1
+Wellington,"Cab and Chassis Only",1
+Wellington,"Heavy Van",1

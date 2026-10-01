@@ -1,0 +1,69 @@
+region,vehicle_type,num_theft,rank_type
+Auckland,Saloon,327,1
+Auckland,Stationwagon,306,2
+Auckland,Hatchback,296,3
+Auckland,Roadbike,163,4
+Auckland,Trailer,141,5
+"Bay of Plenty",Utility,100,1
+"Bay of Plenty",Saloon,86,2
+"Bay of Plenty",Stationwagon,79,3
+"Bay of Plenty",Trailer,54,4
+"Bay of Plenty",Hatchback,48,5
+Canterbury,Stationwagon,165,1
+Canterbury,Trailer,128,2
+Canterbury,Saloon,99,3
+Canterbury,Hatchback,67,4
+Canterbury,Utility,61,5
+Gisborne,Saloon,41,1
+Gisborne,Stationwagon,39,2
+Gisborne,Hatchback,29,3
+Gisborne,Utility,27,4
+Gisborne,Trailer,15,5
+"Hawke's Bay",Trailer,23,1
+"Hawke's Bay",Saloon,20,2
+"Hawke's Bay",Utility,16,3
+"Hawke's Bay",Stationwagon,14,4
+"Hawke's Bay",Hatchback,9,5
+Manawatū-Whanganui,Stationwagon,29,1
+Manawatū-Whanganui,Saloon,28,2
+Manawatū-Whanganui,Trailer,27,3
+Manawatū-Whanganui,Utility,20,4
+Manawatū-Whanganui,Hatchback,14,5
+Marlborough,NULL,0,1
+Nelson,Trailer,19,1
+Nelson,Stationwagon,17,2
+Nelson,Utility,14,3
+Nelson,Hatchback,8,4
+Nelson,Saloon,7,5
+Northland,Stationwagon,69,1
+Northland,Saloon,37,2
+Northland,Utility,34,3
+Northland,Hatchback,28,4
+Northland,Trailer,23,5
+Otago,Stationwagon,31,1
+Otago,Saloon,29,2
+Otago,Trailer,27,3
+Otago,Utility,21,4
+Otago,Hatchback,12,5
+Southland,Stationwagon,9,1
+Southland,Saloon,7,2
+Southland,Roadbike,2,3
+Southland,Hatchback,2,4
+Southland,Utility,2,5
+Taranaki,Stationwagon,23,1
+Taranaki,Trailer,21,2
+Taranaki,Saloon,21,3
+Taranaki,Utility,14,4
+Taranaki,Hatchback,13,5
+Tasman,NULL,0,1
+Waikato,Saloon,80,1
+Waikato,Stationwagon,72,2
+Waikato,Hatchback,61,3
+Waikato,Trailer,56,4
+Waikato,Utility,35,5
+Wellington,Stationwagon,92,1
+Wellington,Saloon,69,2
+Wellington,Hatchback,57,3
+Wellington,Roadbike,48,4
+Wellington,Trailer,46,5
+"West Coast",NULL,0,1

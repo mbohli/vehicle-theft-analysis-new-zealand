@@ -1,0 +1,30 @@
+region,make_name,num_theft,rank_make
+Auckland,Toyota,273,1
+Auckland,Nissan,186,2
+"Bay of Plenty",Toyota,72,1
+"Bay of Plenty",Ford,68,2
+Canterbury,Toyota,136,1
+Canterbury,Trailer,100,2
+Gisborne,Nissan,29,1
+Gisborne,Toyota,27,2
+"Hawke's Bay",Trailer,21,1
+"Hawke's Bay",Toyota,13,2
+Manawatū-Whanganui,Trailer,27,1
+Manawatū-Whanganui,Toyota,18,2
+Marlborough,NULL,0,1
+Nelson,Trailer,18,1
+Nelson,Toyota,16,2
+Northland,Toyota,32,1
+Northland,Nissan,27,2
+Otago,Toyota,21,1
+Otago,Trailer,15,2
+Southland,Subaru,4,1
+Southland,Mazda,3,2
+Taranaki,Trailer,21,1
+Taranaki,Mazda,20,2
+Tasman,NULL,0,1
+Waikato,Nissan,56,1
+Waikato,Trailer,50,2
+Wellington,Mazda,66,1
+Wellington,Toyota,54,2
+"West Coast",NULL,0,1

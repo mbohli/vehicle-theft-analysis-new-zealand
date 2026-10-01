@@ -1,0 +1,49 @@
+vehicle_type,make_name,num_stolen,top_3
+"All Terrain Vehicle",Honda,2,1
+"All Terrain Vehicle",Yamaha,1,2
+"Articulated Truck",DAF,1,1
+"Boat Trailer",Trailer,84,1
+"Boat Trailer",Homebuilt,7,2
+"Cab and Chassis Only",Nissan,6,1
+"Cab and Chassis Only",Toyota,1,2
+Caravan,Caravan,19,1
+Caravan,Trailer,4,2
+Convertible,BMW,4,1
+Convertible,Mazda,3,2
+"Flat Deck Truck",Nissan,4,1
+"Flat Deck Truck",Mazda,3,2
+Hatchback,Toyota,162,1
+Hatchback,Mazda,141,2
+"Heavy Van",Ford,3,1
+"Heavy Van",Mitsubishi,2,2
+"Light Bus",Toyota,3,1
+"Light Bus",Nissan,2,2
+"Light Van",Toyota,79,1
+"Light Van",Mitsubishi,20,2
+"Mobile Home - Light",Toyota,4,1
+"Mobile Home - Light",Ford,3,2
+"Mobile Machine","Mobile Machine",1,1
+"Mobile Machine",Takeuchi,1,2
+Moped,"TNT Motor",42,1
+Moped,Moped,22,2
+"Other Truck",Toyota,14,1
+"Other Truck",Nissan,7,2
+Roadbike,Suzuki,77,1
+Roadbike,Yamaha,44,2
+Saloon,Nissan,169,1
+Saloon,Toyota,129,2
+"Special Purpose Vehicle",Bedford,1,1
+"Sports Car",Toyota,10,1
+"Sports Car",Mazda,9,2
+Stationwagon,Toyota,222,1
+Stationwagon,Subaru,134,2
+Tractor,Massey,1,1
+Tractor,"John Deere",1,2
+"Trail Bike",KTM,1,1
+"Trail Bike",Honda,1,2
+Trailer,Trailer,394,1
+Trailer,Homebuilt,50,2
+"Trailer - Heavy",Trailer,61,1
+"Trailer - Heavy",Briford,14,2
+Utility,Ford,166,1
+Utility,Toyota,88,2
