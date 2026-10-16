@@ -1,0 +1,142 @@
+-- FOR KPI CARDS
+
+WITH regional_stats AS (
+    SELECT
+        l.location_id,
+        l.region,
+        l.population,
+        COUNT(s.vehicle_id) AS num_stolen,
+        ROUND(
+            COUNT(s.vehicle_id) * 10000.0 /
+            NULLIF(l.population, 0),
+            2) AS thefts_per_10000
+    FROM locations AS l
+    LEFT JOIN stolen_vehicles AS s
+        ON l.location_id = s.location_id
+    GROUP BY
+        l.location_id,
+        l.region,
+        l.population),
+
+monthly_stats AS (
+    SELECT
+        DATE_FORMAT(date_stolen, '%Y-%m') AS theft_month,
+        COUNT(*) AS theft_count
+    FROM stolen_vehicles
+    WHERE date_stolen IS NOT NULL
+    GROUP BY DATE_FORMAT(date_stolen, '%Y-%m')),
+
+make_stats AS (
+    SELECT
+        md.make_id,
+        md.make_name,
+        COUNT(s.vehicle_id) AS theft_count
+    FROM stolen_vehicles AS s
+    JOIN make_details AS md
+        ON s.make_id = md.make_id
+    GROUP BY
+        md.make_id,
+        md.make_name),
+
+type_stats AS (
+    SELECT
+        vehicle_type,
+        COUNT(*) AS theft_count
+    FROM stolen_vehicles
+    WHERE vehicle_type IS NOT NULL
+    GROUP BY vehicle_type),
+
+kpis AS (
+    -- 1. Total recorded thefts
+    SELECT
+        1 AS sort_order,
+        'Total recorded thefts' AS kpi,
+        CAST(COUNT(*) AS CHAR) AS kpi_value,
+        COUNT(*) AS numeric_value
+    FROM stolen_vehicles
+    UNION ALL
+    -- 2. Peak month
+    SELECT
+        2,
+        'Peak month',
+        (SELECT DATE_FORMAT(
+                    STR_TO_DATE(
+                        CONCAT(theft_month, '-01'),
+                        '%Y-%m-%d'), '%M %Y')
+         FROM monthly_stats
+         ORDER BY theft_count DESC, theft_month
+         LIMIT 1),
+        (SELECT MAX(theft_count)
+         FROM monthly_stats)
+    UNION ALL
+    -- 3. Highest-volume region
+    SELECT
+        3,
+        'Highest-volume region',
+        (SELECT CONCAT(region, ' (', num_stolen, ')')
+         FROM regional_stats
+         ORDER BY num_stolen DESC, region
+         LIMIT 1),
+        (SELECT MAX(num_stolen)
+         FROM regional_stats)
+
+    UNION ALL
+
+    -- 4. Top vehicle make
+    SELECT
+        4,
+        'Top vehicle make',
+        (SELECT make_name
+         FROM make_stats
+         ORDER BY theft_count DESC, make_name
+         LIMIT 1),
+        (SELECT MAX(theft_count)
+         FROM make_stats)
+
+    UNION ALL
+
+    -- 5. Top vehicle type
+    SELECT
+        5,
+        'Top vehicle type',
+        (SELECT vehicle_type
+         FROM type_stats
+         ORDER BY theft_count DESC, vehicle_type
+         LIMIT 1),
+        (SELECT MAX(theft_count)
+         FROM type_stats)
+
+    UNION ALL
+
+    -- 6. Regions covered
+    SELECT
+        6,
+        'Regions covered',
+        CAST(COUNT(*) AS CHAR),
+        COUNT(*)
+    FROM locations
+
+    UNION ALL
+
+    -- 7. Highest theft rate per 10,000 residents
+    SELECT
+        7,
+        'Highest theft rate',
+        (SELECT CONCAT(
+                    region, ' (',
+                    thefts_per_10000,
+                    ' per 10,000)' )
+         FROM regional_stats
+         WHERE thefts_per_10000 IS NOT NULL
+         ORDER BY thefts_per_10000 DESC, region
+         LIMIT 1),
+        (SELECT MAX(thefts_per_10000)
+         FROM regional_stats)
+)
+
+SELECT
+    kpi,
+    kpi_value,
+    numeric_value
+FROM kpis
+ORDER BY sort_order;
