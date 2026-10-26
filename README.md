@@ -73,7 +73,6 @@ Tableau
 
 The SQL results were exported as CSV files and used in Tableau.
 In Tableau, visualizations were created and some additional analysis were carried out, including:
-•	Population-adjusted theft rates
 •	Aggregating vehicle-make theft counts across regions
 •	Top-N filtering
 •	Calculated fields
@@ -81,6 +80,7 @@ In Tableau, visualizations were created and some additional analysis were carrie
 For example, the regional vehicle-make data was exported from SQL and then aggregated in Tableau to look at the leading vehicle makes nationally.
 I initially used a Top 10 filter and then displayed the leading seven makes because the remaining makes had relatively small 
 and similar values and made the visualization more crowded.
+Vizualisations can be accessed on Tableau Public here: [https://public.tableau.com/views/Vehicletheftanalysis/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link](https://public.tableau.com/app/profile/nadege.ayuni/viz/Vehicletheftanalysis/Dashboard1)
 
 Key KPIs
 
@@ -133,22 +133,21 @@ Monday and Tuesday had the highest recorded theft activity. Saturday had the low
 
 5. A small group of vehicle makes accounts for a large share of thefts
 Toyota recorded the highest number of stolen vehicles by make.
-I initially used a Top 10 filter in Tableau and then focused the final visualization on the leading seven makes. The remaining makes had much smaller and relatively similar numbers, so including all of them made the visualization harder to read.
+I initially used a Top 10 filter in Tableau and then focused the final visualization on the leading five makes. The remaining makes had much smaller and relatively similar numbers, so including all of them made the visualization harder to read.
 The combined percentage of the selected leading makes was also calculated during the Tableau analysis.
 This analysis shows the composition of the recorded thefts. It does not show the likelihood of a particular make being stolen because the dataset does not contain the number of vehicles of each make that were available to be stolen.
 
-6. Trailers were the most frequently stolen vehicle type
-Trailers recorded the highest number of thefts among the vehicle types analyzed.
+6. StationWagon were the most frequently stolen vehicle type
+StationWagon recorded the highest number of thefts among the vehicle types analyzed.
 Other frequently recorded vehicle types included:
 •	Saloon
-•	Stationwagon
 •	Hatchback
-•	Roadbike
-•	Moped
+•	Trailer
 •	Utility
+
 The same vehicle types generally appeared among the leading categories across different regions.
 
-7. The leading vehicle types are broadly consistent across regions
+8. The leading vehicle types are broadly consistent across regions
 I compared the top vehicle types within each region.
 For example, Auckland's leading vehicle types included:
 •	Saloon
@@ -163,7 +162,7 @@ In Bay of Plenty, the leading types included:
 The order and volume changed between regions, but many of the same vehicle types appeared across the analysis.
 This suggests that the main regional difference is more noticeable in the amount of theft rather than completely different types of vehicles being stolen.
 
-8. The leading makes differ between vehicle types
+9. The leading makes differ between vehicle types
 I also looked at the most frequently recorded makes within individual vehicle types.
 Some examples from the analysis were:
 Vehicle Type	Top Make	Second Make
@@ -172,7 +171,7 @@ Saloon	Nissan	Toyota
 Boat Trailer	Trailer	Homebuilt
 This provided another level of detail beyond simply looking at the overall top vehicle makes.
 
-9. Standard vehicles account for most recorded thefts
+10. Standard vehicles account for most recorded thefts
 Standard vehicles made up the majority of recorded thefts across most vehicle types.
 For example:
 Vehicle Type	Standard	Luxury
