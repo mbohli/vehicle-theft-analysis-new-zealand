@@ -80,7 +80,8 @@ In Tableau, visualizations were created and some additional analysis were carrie
 For example, the regional vehicle-make data was exported from SQL and then aggregated in Tableau to look at the leading vehicle makes nationally.
 I initially used a Top 10 filter and then displayed the leading seven makes because the remaining makes had relatively small 
 and similar values and made the visualization more crowded.
-Vizualisations can be accessed on Tableau Public here: [https://public.tableau.com/views/Vehicletheftanalysis/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link](https://public.tableau.com/app/profile/nadege.ayuni/viz/Vehicletheftanalysis/Dashboard1)
+
+Vie my interactive tableau dashboard here: [https://public.tableau.com/views/Vehicletheftanalysis/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link](https://public.tableau.com/app/profile/nadege.ayuni/viz/Vehicletheftanalysis/Dashboard1)
 
 Key KPIs
 
