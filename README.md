@@ -111,14 +111,14 @@ Vehicle
 Geography
 
 •	Regional theft volume
-•	Theft rate per 1,000 residents
+•	Theft rate per 10,000 residents
 
 Key Findings
 
 1. Vehicle theft is not evenly distributed across the country
 Auckland recorded the highest number of vehicle thefts, with 1,638 recorded thefts, representing around 36% of the total thefts in the dataset.
 Southland recorded the lowest raw number of thefts.
-However, raw theft numbers do not take population size into account. When I adjusted the figures for population, Gisborne had the highest theft rate at 3.38 thefts per 1,000 residents.
+However, raw theft numbers do not take population size into account. When I adjusted the figures for population, Gisborne had the highest theft rate at 33.78 thefts per 10,000 residents.
 This shows why it is useful to look at both total theft volume and population-adjusted rates.
 
 2. Three regions account for almost 60% of recorded thefts
